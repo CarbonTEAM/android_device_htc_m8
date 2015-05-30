@@ -23,4 +23,3 @@ $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 PRODUCT_NAME := carbon_m8
 PRODUCT_DEVICE := m8
-CARBON_BUILDTYPE := NIGHTLY
