@@ -61,6 +61,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 -
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
 TARGET_KERNEL_CONFIG := furnace_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/linaro-4.9-arm-eabi/bin/"
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true

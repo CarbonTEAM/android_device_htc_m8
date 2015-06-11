@@ -18,6 +18,12 @@
     "revision": "cm-12.1"
   },
   {
+    "remote": "gh",
+    "repository": "ArchiDroid/Toolchain",
+    "target_path": "prebuilts/gcc/linux-x86/arm/linaro-4.9-arm-eabi",
+    "revision": "linaro-4.9-arm-eabi"
+  },
+  {
     "remote": "tm",
     "repository": "proprietary_vendor_htc",
     "target_path": "vendor/htc",
