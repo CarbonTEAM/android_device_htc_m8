@@ -1,5 +1,4 @@
 -app/CIRModule/CIRModule.apk:app/CIRModule.apk
--app/EasyAccessService/EasyAccessService.apk:app/EasyAccessService.apk
 bin/adsprpcd
 bin/ATFWD-daemon
 bin/cir_fw_update
