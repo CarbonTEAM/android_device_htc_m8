@@ -59,9 +59,9 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02008000 --tags_offset 0x01e00000
 BOARD_CUSTOM_BOOTIMG_MK := device/htc/m8/mkbootimg.mk
-TARGET_KERNEL_CONFIG := furnace_defconfig
+TARGET_KERNEL_CONFIG := unicornblood_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8974
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/linaro-4.9-arm-eabi/bin/"
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/linaro-4.8-arm-eabi/bin/"
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
