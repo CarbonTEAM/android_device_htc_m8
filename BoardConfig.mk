@@ -177,7 +177,6 @@ BOARD_SEPOLICY_UNION += \
     platform_app.te \
     property_contexts \
     recovery.te \
-    radio.te \
     rmt_storage.te \
     system_app.te \
     system_server.te \
